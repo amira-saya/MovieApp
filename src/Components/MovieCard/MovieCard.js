@@ -2,10 +2,12 @@ import React from 'react'
 import Rate from "../Rate"
 import data from "../data"
 import "./MovieCard.css"
+import { Link } from 'react-router-dom';
 
 
 const movie = ({movie})=>{
     return(
+      <Link to={`/Trailer/${movie.name}`}>
     <div className="container">
     <div className="movie">
       <div className="movie-rating">
@@ -20,7 +22,9 @@ const movie = ({movie})=>{
             <h2>{movie.name}</h2>
             <ul className="movie-gen">
               <p>{movie.date}</p>
+                            
             </ul>
+            
           </div>
         </div>
         <div className="mr-grid summary-row">
@@ -29,14 +33,17 @@ const movie = ({movie})=>{
         </div>
         <div className="mr-grid action-row">
           <div className="col2">
-            <div className="watch-btn">
-              <h3>WATCH TRAILER</h3>
-            </div>
           </div>
+            <div className="col3">
+              <h3>WATCH TRAILER</h3>
+             
+            </div>
+          
         </div>
       </div>
     </div>
   </div>
+  </Link>
 );
 };
 

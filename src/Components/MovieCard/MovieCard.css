@@ -84,7 +84,7 @@ body {
     background-size: cover;
     z-index: 1 !important;
     width: 275px;
-    height: 580px;
+    height: 700px;
     display: block;
     border-radius: 25px;
   }
@@ -156,7 +156,7 @@ body {
   
   .movie-gen p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     color: #e7e7e78a;
     width: auto;
     display: block;
@@ -167,7 +167,7 @@ body {
   .summary-row p {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 200;
     color: #e7e7e78a;
     text-align: justify;
     line-height: 1.8;
@@ -207,8 +207,8 @@ body {
   .col5rest,
   .col6,
   .col6rest {
-    margin: 0% 0.5% 0.5% 0.5%;
-    padding: 1%;
+    margin: 1% 1% 1% 1%;
+    padding: 5%;
     float: left;
     display: block;
   }
@@ -218,7 +218,7 @@ body {
     width: 98%;
   }
   .col2 {
-    width: 47%;
+    width: 100%;
   }
   .col3 {
     width: 30.3333333333%;

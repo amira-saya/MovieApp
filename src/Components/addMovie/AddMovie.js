@@ -20,6 +20,7 @@ const AddMovie = ({ addMovie }) => {
       date: "",
       description: "",
       image: "",
+      link: "",
     });
   
     const handelChange = (e) => {
